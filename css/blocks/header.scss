@@ -1,0 +1,51 @@
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  margin-left: 78px;
+}
+
+.logo {
+  margin-right: 70px;
+}
+ 
+.nav__list {
+  display: flex;
+  text-transform: uppercase;
+  font-family: Ubuntu;
+font-size: 13px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.nav__item {
+  &:last-child {
+    .nav__link:after {
+      display: none;
+    }
+  }
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;   
+    margin: 0 16px;
+  }
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}

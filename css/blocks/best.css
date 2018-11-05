@@ -1,0 +1,13 @@
+.best {
+  background: url("../img/bg/best.jpg") center center no-repeat;
+  background-size: cover; }
+
+.best__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.best__item {
+  margin-right: 20px; }
+  .best__item:last-child {
+    margin-right: 0; }
