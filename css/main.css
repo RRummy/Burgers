@@ -658,7 +658,7 @@ footer {
   font-weight: 500;
   line-height: 30px; }
 
-.nav__item:last-child .nav__link:after {
+.nav__item .nav__link-last:after {
   display: none; }
 
 .nav__link {
@@ -687,3 +687,14 @@ footer {
   -ms-flex-align: center;
   align-items: center;
   margin-left: auto; }
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background: #e45028;
+  padding: 10px;
+  border: solid;
+  border: 1px;
+  border-color: #e45028;
+  border-radius: 5px;
+  margin-left: 15px; }

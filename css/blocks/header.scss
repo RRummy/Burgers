@@ -20,12 +20,13 @@ line-height: 30px;
 }
 
 .nav__item {
-  &:last-child {
-    .nav__link:after {
+    .nav__link-last:after {
       display: none;
     }
   }
-}
+
+
+
 
 .nav__link {
   color: #fff;
@@ -48,4 +49,16 @@ line-height: 30px;
   display: flex;
   align-items: center;
   margin-left: auto;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background: $orange;
+  padding: 10px;
+  border: solid;
+  border: 1px;
+  border-color: $orange;
+  border-radius: 5px;
+  margin-left: 15px;
 }
