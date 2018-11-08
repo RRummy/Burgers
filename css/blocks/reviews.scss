@@ -13,6 +13,7 @@
   background-repeat: no-repeat;
   filter: grayscale(100%);
   position: relative;
+  list-style: none;
 
   &:hover {
     .reviews__hover {
@@ -33,23 +34,35 @@
   transition: opacity 0.3s;
 }
 
-.reviews__text {
+.reviews__text--p {
   display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center;
-margin-top: 50px;
-margin-right: 33px;
-margin-bottom: 50px;
-margin-left: 20px;
-font-family: 'Ubuntu-Light';
-font-size: 14px;
-font-weight: 300;
-line-height: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 33px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  font-family: "ubuntulight";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  width: 222px;
 }
 
 .user__name {
   margin-bottom: 30px;
-  justify-content: initial;
-  font-family: "Gagalin-Regular";
+  font-family: "Gagalin";
+  margin-top: 50px;
+  margin-right: 33px;
+
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.11px;
+}
+
+.avatar {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }

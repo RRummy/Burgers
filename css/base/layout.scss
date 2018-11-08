@@ -9,7 +9,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  @include ubuntu();
   color: $black;
 }
 
@@ -81,7 +80,7 @@ footer {
 
 .section-title {
   font-size: 72px;
-  @include gagalin();
+
   color: $yellow;
   margin-bottom: 40px;
 
