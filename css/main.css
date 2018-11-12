@@ -770,4 +770,31 @@ footer {
   margin-left: 15px; }
 
 .map {
-  height: 100vh; }
+  height: 100vh;
+  background: url(../../img/map.png);
+  background-size: cover; }
+
+.slaider {
+  height: 100vh;
+  background-color: #f9b43b;
+  background-size: cover; }
+
+.team {
+  height: 100vh;
+  background: url(../img/SBS_1255-X2.png);
+  background-size: cover; }
+
+.menu {
+  height: 100vh;
+  background: url(../../img/photo-1428660386617-8d277e7deaf2.png);
+  background-size: cover; }
+
+.work {
+  height: 100vh;
+  background: url(../../img/BG_.png);
+  background-size: cover; }
+
+.order {
+  height: 100vh;
+  background: url(../../img/order.png);
+  background-size: cover; }
