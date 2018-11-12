@@ -771,7 +771,7 @@ footer {
 
 .map {
   height: 100vh;
-  background: url(../../img/map.png);
+  background: url(../img/map.png);
   background-size: cover; }
 
 .slaider {
@@ -786,15 +786,15 @@ footer {
 
 .menu {
   height: 100vh;
-  background: url(../../img/photo-1428660386617-8d277e7deaf2.png);
+  background: url(../img/photo-1428660386617-8d277e7deaf2.png);
   background-size: cover; }
 
 .work {
   height: 100vh;
-  background: url(../../img/BG_.png);
+  background: url(../img/BG_.png);
   background-size: cover; }
 
 .order {
   height: 100vh;
-  background: url(../../img/order.png);
+  background: url(../img/order.png);
   background-size: cover; }
