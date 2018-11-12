@@ -9,24 +9,23 @@
 .logo {
   margin-right: 70px;
 }
- 
+
 .nav__list {
   display: flex;
-  text-transform: uppercase;
-  font-family: 'ubuntumedium';
-font-size: 13px;
-font-weight: 700;
-line-height: 30px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 .nav__item {
-    .nav__link-last:after {
-      display: none;
-    }
+  .nav__link-last:after {
+    display: none;
   }
-
+}
 
 .nav__link {
+  text-transform: uppercase;
+  font-family: "ubuntu";
+  font-size: 13px;
   color: #fff;
   text-decoration: none;
   display: flex;
@@ -38,7 +37,7 @@ line-height: 30px;
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background: #fff;   
+    background: #fff;
     margin: 0 16px;
   }
 }
@@ -50,6 +49,9 @@ line-height: 30px;
 }
 
 .btn {
+  text-transform: uppercase;
+  font-family: "ubuntu";
+  font-size: 13px;
   text-decoration: none;
   color: white;
   background: $orange;
