@@ -45,7 +45,7 @@
   justify-content: center;
   align-content: center;
   margin-right: 33px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-left: 20px;
   font-family: "ubuntu";
   font-size: 14px;
@@ -70,4 +70,8 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+.btn-review {
+  margin-bottom: 50px;
 }
